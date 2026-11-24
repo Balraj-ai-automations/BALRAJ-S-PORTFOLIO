@@ -1599,6 +1599,7 @@
     /* ── Resume placeholder ── */
     document.getElementById('resume-btn').addEventListener('click', function(e) {
       e.preventDefault();
+      if (window.RESUME_URL) { window.open(window.RESUME_URL, '_blank', 'noopener'); return; }
       alert('Resume download link will be connected once the resume file is added.');
     });
 

@@ -6,9 +6,9 @@
    card stays visibly disabled and never navigates
    anywhere.
 ════════════════════════════════════════════ */
-var LINKEDIN_URL = '';
-var GITHUB_URL = '';
-var RESUME_URL = '';
+var LINKEDIN_URL = 'https://www.linkedin.com/in/balraj-s-ai/';
+var GITHUB_URL = 'https://github.com/Balraj-ai-automations';
+var RESUME_URL = 'assets/Balraj-S-Resume.pdf';
 
 (function () {
   'use strict';
