@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="sections.css" />
 
   <style>
     /* ════════════════════════════════════════════
@@ -897,12 +898,421 @@
     <!-- end about-grid -->
   </section>
 
-  <!-- Placeholder sections (to allow navigation) -->
-  <section id="skills"     style="min-height:100vh;background:#f5f5f5;display:flex;align-items:center;justify-content:center;scroll-snap-align:start;"><p style="font-family:'Space Mono',monospace;font-size:13px;color:#aaa;letter-spacing:.2em;">TECHNICAL SKILLS — Coming Soon</p></section>
-  <section id="internship" style="min-height:100vh;background:#f0f0f0;display:flex;align-items:center;justify-content:center;scroll-snap-align:start;"><p style="font-family:'Space Mono',monospace;font-size:13px;color:#aaa;letter-spacing:.2em;">INTERNSHIP — Coming Soon</p></section>
-  <section id="projects"   style="min-height:100vh;background:#f5f5f5;display:flex;align-items:center;justify-content:center;scroll-snap-align:start;"><p style="font-family:'Space Mono',monospace;font-size:13px;color:#aaa;letter-spacing:.2em;">PROJECTS — Coming Soon</p></section>
-  <section id="education"  style="min-height:100vh;background:#f0f0f0;display:flex;align-items:center;justify-content:center;scroll-snap-align:start;"><p style="font-family:'Space Mono',monospace;font-size:13px;color:#aaa;letter-spacing:.2em;">EDUCATION — Coming Soon</p></section>
-  <section id="contact"    style="min-height:100vh;background:#f5f5f5;display:flex;align-items:center;justify-content:center;scroll-snap-align:start;"><p style="font-family:'Space Mono',monospace;font-size:13px;color:#aaa;letter-spacing:.2em;">CONTACT — Coming Soon</p></section>
+  <!-- ═══════════════════════════════════════════
+       03 — TECHNICAL SKILLS
+  ═══════════════════════════════════════════ -->
+  <section id="skills" class="sec sec-cream">
+    <div class="sec-inner">
+
+      <div class="about-section-label fade-up">03 / TECHNICAL SKILLS</div>
+      <h2 class="sec-headline fade-up fade-up-delay-1">
+        The stack I use to turn ideas<br>
+        into <span class="hl-cobalt">working systems.</span>
+      </h2>
+      <p class="sec-lede fade-up fade-up-delay-2">
+        A practical toolkit rather than a list of logos — chosen for getting an idea from
+        notebook to a reliable, deployed product.
+      </p>
+
+      <div class="skills-grid">
+
+        <!-- Card 1 — AI & ML -->
+        <article class="skill-card fade-up fade-up-delay-3">
+          <div class="skill-head">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24"><path d="M9.5 2a4.5 4.5 0 014 2.5A4.5 4.5 0 0118 9a4.5 4.5 0 01-3 4.24V17a2 2 0 01-2 2h-2a2 2 0 01-2-2v-3.76A4.5 4.5 0 016 9a4.5 4.5 0 013.5-7z"/><path d="M9 17v2a2 2 0 002 2h2"/></svg>
+            </div>
+            <div>
+              <div class="skill-title">AI &amp; Machine Learning</div>
+              <div class="skill-sub">Models &amp; Data</div>
+            </div>
+          </div>
+          <ul class="skill-tags">
+            <li>Python</li>
+            <li>PyTorch</li>
+            <li>TensorFlow</li>
+            <li>scikit-learn</li>
+            <li>Pandas / NumPy</li>
+            <li>Hugging Face</li>
+            <li>Model Evaluation</li>
+          </ul>
+        </article>
+
+        <!-- Card 2 — GenAI & Agents (sage accent) -->
+        <article class="skill-card fade-up fade-up-delay-4">
+          <div class="skill-head">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 3v3M12 18v3M4.2 7.5l2.6 1.5M17.2 15l2.6 1.5M4.2 16.5l2.6-1.5M17.2 9l2.6-1.5"/><circle cx="12" cy="12" r="4"/></svg>
+            </div>
+            <div>
+              <div class="skill-title">GenAI &amp; Agents</div>
+              <div class="skill-sub">LLMs &amp; Retrieval</div>
+            </div>
+          </div>
+          <ul class="skill-tags">
+            <li>LangChain</li>
+            <li>LlamaIndex</li>
+            <li>RAG Pipelines</li>
+            <li>Prompt Engineering</li>
+            <li>Tool Calling</li>
+            <li>OpenAI / Gemini APIs</li>
+            <li>FAISS / Pinecone</li>
+          </ul>
+        </article>
+
+        <!-- Card 3 — Engineering & Tooling -->
+        <article class="skill-card fade-up fade-up-delay-5">
+          <div class="skill-head">
+            <div class="skill-icon">
+              <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            </div>
+            <div>
+              <div class="skill-title">Engineering &amp; Tooling</div>
+              <div class="skill-sub">Ship &amp; Operate</div>
+            </div>
+          </div>
+          <ul class="skill-tags">
+            <li>FastAPI</li>
+            <li>Flask</li>
+            <li>PostgreSQL</li>
+            <li>REST APIs</li>
+            <li>Docker</li>
+            <li>Git &amp; GitHub</li>
+            <li>Streamlit</li>
+            <li>n8n</li>
+          </ul>
+        </article>
+
+      </div>
+
+      <div class="skills-foot fade-up fade-up-delay-6">
+        Currently exploring — <strong>multi-agent orchestration</strong> · <strong>evaluation harnesses</strong> · <strong>on-device inference</strong>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       04 — INTERNSHIP
+  ═══════════════════════════════════════════ -->
+  <section id="internship" class="sec sec-dark">
+    <div class="sec-inner">
+
+      <div class="about-section-label fade-up">04 / INTERNSHIP</div>
+      <h2 class="sec-headline fade-up fade-up-delay-1">
+        Where I've learned<br>
+        by <span class="hl-cobalt">shipping.</span>
+      </h2>
+      <p class="sec-lede fade-up fade-up-delay-2">
+        Hands-on work on AI systems — from first prototype to something people actually rely on.
+      </p>
+
+      <div class="timeline">
+
+        <!-- Entry 1 -->
+        <article class="tl-item fade-up fade-up-delay-3">
+          <div class="tl-meta">
+            <span class="tl-period">2025 — Present</span>
+            <span class="tl-badge">Current</span>
+          </div>
+          <h3 class="tl-role">AI Engineering Intern</h3>
+          <div class="tl-org">[Company Name] · Remote</div>
+          <ul class="tl-list">
+            <li>Built retrieval-augmented assistants over internal documents, cutting research time from hours to minutes.</li>
+            <li>Designed prompt and evaluation workflows so model changes could be measured before release.</li>
+            <li>Shipped API endpoints and internal dashboards that put the models in front of real users.</li>
+          </ul>
+          <ul class="skill-tags tl-tags">
+            <li>Python</li>
+            <li>RAG</li>
+            <li>FastAPI</li>
+            <li>Vector DBs</li>
+          </ul>
+        </article>
+
+        <!-- Entry 2 -->
+        <article class="tl-item fade-up fade-up-delay-4">
+          <div class="tl-meta">
+            <span class="tl-period">2024 — Present</span>
+          </div>
+          <h3 class="tl-role">Independent Builder</h3>
+          <div class="tl-org">Self-directed projects · Remote</div>
+          <ul class="tl-list">
+            <li>Exploring agentic workflows and automation through small, end-to-end builds.</li>
+            <li>Documenting what works — and what breaks — as reusable patterns and notes.</li>
+          </ul>
+          <ul class="skill-tags tl-tags">
+            <li>Agents</li>
+            <li>Automation</li>
+            <li>System Design</li>
+          </ul>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       05 — PROJECTS
+  ═══════════════════════════════════════════ -->
+  <section id="projects" class="sec sec-cream">
+    <div class="sec-inner">
+
+      <div class="about-section-label fade-up">05 / PROJECTS</div>
+      <h2 class="sec-headline fade-up fade-up-delay-1">
+        Selected work, built<br>
+        <span class="hl-cobalt">end to end.</span>
+      </h2>
+      <p class="sec-lede fade-up fade-up-delay-2">
+        Each of these started as a question about what AI can actually do outside a demo.
+      </p>
+
+      <div class="projects-grid">
+
+        <article class="project-card fade-up fade-up-delay-3">
+          <div class="pc-top">
+            <div>
+              <h3 class="pc-title">RAG Knowledge Assistant</h3>
+              <p class="pc-desc">Chat over private documents with citation-backed answers, hybrid retrieval and a streaming interface.</p>
+            </div>
+            <span class="pc-index">01</span>
+          </div>
+          <div class="pc-foot">
+            <ul class="skill-tags">
+              <li>LangChain</li>
+              <li>FAISS</li>
+              <li>FastAPI</li>
+            </ul>
+            <a href="#" class="pc-link">
+              Case study
+              <svg viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card fade-up fade-up-delay-4">
+          <div class="pc-top">
+            <div>
+              <h3 class="pc-title">Agentic Workflow Automator</h3>
+              <p class="pc-desc">Multi-step agents that triage requests, call the right tools and hand off to a human when confidence drops.</p>
+            </div>
+            <span class="pc-index">02</span>
+          </div>
+          <div class="pc-foot">
+            <ul class="skill-tags">
+              <li>Agents</li>
+              <li>Tool Calling</li>
+              <li>n8n</li>
+            </ul>
+            <a href="#" class="pc-link">
+              Case study
+              <svg viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card fade-up fade-up-delay-5">
+          <div class="pc-top">
+            <div>
+              <h3 class="pc-title">LLM Evaluation Harness</h3>
+              <p class="pc-desc">A small framework for scoring model output against golden sets, so prompt changes ship with evidence.</p>
+            </div>
+            <span class="pc-index">03</span>
+          </div>
+          <div class="pc-foot">
+            <ul class="skill-tags">
+              <li>Evals</li>
+              <li>Python</li>
+              <li>Pytest</li>
+            </ul>
+            <a href="#" class="pc-link">
+              Case study
+              <svg viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card fade-up fade-up-delay-6">
+          <div class="pc-top">
+            <div>
+              <h3 class="pc-title">This Portfolio</h3>
+              <p class="pc-desc">A scroll-driven, hand-written site — no framework, no build step, just typography and motion.</p>
+            </div>
+            <span class="pc-index">04</span>
+          </div>
+          <div class="pc-foot">
+            <ul class="skill-tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Motion</li>
+            </ul>
+            <a href="#home" class="pc-link">
+              Back to top
+              <svg viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></svg>
+            </a>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       06 — EDUCATION
+  ═══════════════════════════════════════════ -->
+  <section id="education" class="sec sec-cream-alt">
+    <div class="sec-inner">
+
+      <div class="about-section-label fade-up">06 / EDUCATION</div>
+      <h2 class="sec-headline fade-up fade-up-delay-1">
+        Foundations, then<br>
+        <span class="hl-cobalt">constant practice.</span>
+      </h2>
+      <p class="sec-lede fade-up fade-up-delay-2">
+        Formal study gave me the fundamentals; the rest has come from building, reading papers and shipping.
+      </p>
+
+      <div class="edu-grid">
+
+        <div>
+          <article class="edu-card edu-card--sage fade-up fade-up-delay-3">
+            <div class="edu-period">2021 — 2025</div>
+            <h3 class="edu-degree">B.Tech — Computer Science &amp; Engineering</h3>
+            <div class="edu-org">[Institution Name] · [City]</div>
+            <p class="edu-note">Coursework across machine learning, data structures, distributed systems and human-centred design.</p>
+            <ul class="skill-tags">
+              <li>Machine Learning</li>
+              <li>Data Structures</li>
+              <li>DBMS</li>
+              <li>Operating Systems</li>
+              <li>Computer Networks</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="fade-up fade-up-delay-4">
+          <div class="edu-heading">Certifications &amp; Courses</div>
+          <ul class="edu-list">
+            <li>
+              <span class="bullet"></span>
+              <div>
+                <div class="item-title">Deep Learning Specialization</div>
+                <div class="item-sub">DeepLearning.AI — neural networks, CNNs, sequence models</div>
+              </div>
+            </li>
+            <li>
+              <span class="bullet"></span>
+              <div>
+                <div class="item-title">LangChain for LLM Applications</div>
+                <div class="item-sub">Retrieval, agents and evaluation patterns for production LLM apps</div>
+              </div>
+            </li>
+            <li>
+              <span class="bullet"></span>
+              <div>
+                <div class="item-title">Generative AI Fundamentals</div>
+                <div class="item-sub">Google Cloud — model capabilities, prompting and responsible use</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       07 — CONTACT
+  ═══════════════════════════════════════════ -->
+  <section id="contact" class="sec sec-dark">
+    <div class="sec-inner">
+
+      <div class="about-section-label fade-up">07 / CONTACT</div>
+
+      <div class="contact-grid">
+
+        <div>
+          <h2 class="contact-headline fade-up fade-up-delay-1">
+            Let's build something<br>
+            <span class="accent">worth shipping.</span>
+          </h2>
+          <p class="sec-lede fade-up fade-up-delay-2">
+            Open to internships, collaborations and interesting problems in AI. The fastest way to reach me is email.
+          </p>
+
+          <a href="mailto:hello@example.com" class="contact-email fade-up fade-up-delay-3">
+            <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            hello@example.com
+          </a>
+
+          <div class="contact-actions fade-up fade-up-delay-4">
+            <a href="mailto:hello@example.com" class="btn-sage">
+              <svg viewBox="0 0 24 24"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+              Say hello
+            </a>
+            <a href="#" class="btn-ghost" id="contact-resume-btn">
+              <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download Resume
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-card fade-up fade-up-delay-5">
+
+          <div class="contact-row">
+            <div class="row-icon">
+              <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <div class="label">Based in</div>
+              <div class="value">[City, Country]</div>
+            </div>
+          </div>
+
+          <div class="contact-row">
+            <div class="row-icon">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div>
+              <div class="label">Availability</div>
+              <div class="value">Open to internships &amp; collaborations</div>
+            </div>
+          </div>
+
+          <div class="contact-row">
+            <div class="row-icon">
+              <svg viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+            </div>
+            <div>
+              <div class="label">Response time</div>
+              <div class="value">Usually within a day or two</div>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="#" class="social-link">
+              <svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+              GitHub
+            </a>
+            <a href="#" class="social-link">
+              <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              LinkedIn
+            </a>
+            <a href="#" class="social-link">
+              <svg viewBox="0 0 24 24"><path d="M4 4l16 16M20 4L4 20"/></svg>
+              X
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
 
   <!-- ════ SCRIPTS ════ -->
   <script>
@@ -916,10 +1326,12 @@
     document.getElementById('overlay').addEventListener('click', closeSidebar);
 
     /* ── Resume placeholder ── */
-    document.getElementById('resume-btn').addEventListener('click', function(e) {
+    function resumePlaceholder(e) {
       e.preventDefault();
       alert('Resume download link will be connected once the resume file is added.');
-    });
+    }
+    document.getElementById('resume-btn').addEventListener('click', resumePlaceholder);
+    document.getElementById('contact-resume-btn').addEventListener('click', resumePlaceholder);
 
     /* ── Scroll-triggered fade-in animations ── */
     const animEls = document.querySelectorAll('.fade-up, .slide-right');
